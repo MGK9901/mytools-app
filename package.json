@@ -1,28 +1,28 @@
 {
   "name": "pixiwall-desktop",
   "version": "1.0.0",
+  "description": "Pixiwall Desktop Gallery",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder"
+    "dist": "electron-builder"
   },
+  "author": "Pixiwall Team",
   "build": {
     "appId": "com.pixiwall.app",
     "productName": "Pixiwall",
-    "win": {
-      "icon": "assets/pixiwall_icon.ico",
-      "target": "nsis"
-    },
     "directories": {
       "output": "dist"
+    },
+    "files": [
+      "**/*"
+    ],
+    "win": {
+      "target": "nsis"
     }
   },
   "devDependencies": {
-    "electron": "^25.0.0",
-    "electron-builder": "^24.6.0"
-  },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "electron": "^25.9.0",
+    "electron-builder": "^24.13.3"
   }
 }
