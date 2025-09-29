@@ -1,3 +1,15 @@
+<<<<<<< HEAD
 node_modules
 dist
 *.exe
+=======
+﻿node_modules/
+.next/
+.vercel/
+*.log
+.env*
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+>>>>>>> 4fb8298 (feat: animated landing (bg image, glass cards, shimmer title, 7-day countdown))
