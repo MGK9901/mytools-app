@@ -1,31 +1,4 @@
 {
-<<<<<<< HEAD
-  "name": "pixiwall-desktop",
-  "version": "1.0.0",
-  "description": "Pixiwall Desktop Gallery",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron .",
-    "dist": "electron-builder"
-  },
-  "author": "Pixiwall Team",
-  "build": {
-    "appId": "com.pixiwall.app",
-    "productName": "Pixiwall",
-    "directories": {
-      "output": "dist"
-    },
-    "files": [
-      "**/*"
-    ],
-    "win": {
-      "target": "nsis"
-    }
-  },
-  "devDependencies": {
-    "electron": "^25.9.0",
-    "electron-builder": "^24.13.3"
-=======
   "name": "adawat-hub-coming-soon",
   "version": "0.1.0",
   "private": true,
@@ -37,16 +10,16 @@
   },
   "dependencies": {
     "next": "14.2.5",
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "autoprefixer": "10.4.20",
-    "postcss": "8.4.47",
-    "tailwindcss": "3.4.13",
-    "typescript": "5.6.2",
-    "@types/react": "18.3.5",
-    "@types/node": "20.14.12"
->>>>>>> 4fb8298 (feat: animated landing (bg image, glass cards, shimmer title, 7-day countdown))
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
